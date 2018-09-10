@@ -1,0 +1,46 @@
+{
+  "name": "beginner",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "eslint-plugin-jest": "^21.18.0",
+    "geolib": "^2.0.23",
+    "lodash": "^4.17.4",
+    "moment": "^2.18.1",
+    "prop-types": "^15.6.1",
+    "react": "16.3.1",
+    "react-native": "0.54.2",
+    "react-native-fabric": "^0.5.1",
+    "react-native-keyboard-aware-scroll-view": "^0.7.2",
+    "react-native-navigation": "^1.1.471",
+    "react-native-vector-icons": "^5.0.0"
+  },
+  "devDependencies": {
+    "babel-jest": "23.4.2",
+    "babel-eslint": "^8.2.3",
+    "babel-preset-react-native": "4.0.0",
+    "enzyme": "^2.7.1",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-babel": "^5.1.0",
+    "eslint-plugin-eslint-comments": "^3.0.1",
+    "eslint-plugin-flowtype": "^2.50.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-prettier": "^2.6.2",
+    "eslint-plugin-react": "^7.8.2",
+    "eslint-plugin-react-native": "^3.2.1",
+    "jest": "^19.0.2",
+    "react-addons-test-utils": "^15.4.2",
+    "react-dom": "^16.3.2",
+    "react-native-schemes-manager": "^1.0.5",
+    "react-test-renderer": "^16.3.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
